@@ -6,6 +6,7 @@ This repository contains files for:
   - `week-03-equations.tex`
   - `week-04-equations.tex`
   - `week-05-equations.tex`
+  - `week-06-equations.tex`
   - `.gitignore`
   - `LICENSE_CODE.md`
   - `LICENSE_TEXT.md`
