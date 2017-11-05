@@ -10,8 +10,7 @@ This repository contains files for:
   - `week-07-equations.tex`
   - `week-10-equations.tex`
   - `.gitignore`
-  - `LICENSE_CODE.md`
-  - `LICENSE_TEXT.md`
+  - `LICENSE.md`
   - `README.md`
 
 Each of the equations sheets includes the `tex` source for that week's equation handout. These hands cover all major equations discussed during the semester. These specific files are discussed during Week 11's lecture.
