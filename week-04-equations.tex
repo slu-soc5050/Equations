@@ -1,0 +1,70 @@
+\documentclass{tufte-handout}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% set hyperlink attributes
+\hypersetup{colorlinks}
+
+\usepackage{amsmath}
+
+% set image attributes:
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+% create environment for bottom paragraph:
+\newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
+
+% ============================================================
+
+% define the title
+\title{SOC 4930/5050: Week 04 Equations Quick \\Reference}
+\author{Christopher Prener, Ph.D.}
+\date{September 18\textsuperscript{th}, 2017}
+% ============================================================
+\begin{document}
+% ============================================================
+\maketitle % generates the title
+% ============================================================
+
+\vspace{5mm}
+\section{Additive Law}
+\begin{fullwidth}
+\begin{equation}
+\scalebox{2} {$ P(A \cup B)= P(A)+P(B)-P(A \cap B) $}
+\end{equation}
+\end{fullwidth}
+
+\vspace{5mm}
+\section{Conditional Probability}
+\begin{subequations}
+\begin{equation}
+\scalebox{2} {$ P(A | B)= \frac{P(A \cap B)}{P(B)} $}
+\end{equation}
+\vspace{3mm}
+\par \noindent \begin{equation}
+\scalebox{2} {$ P(B | A)= \frac{P(A \cap B)}{P(A)} $}
+\end{equation}
+\end{subequations}
+
+\vspace{5mm}
+\section{Multiplicative Law}
+\begin{equation}
+\scalebox{2} {$ P(A \cap B)= P(A)*P(B|A) $}
+\end{equation}
+
+\vspace{5mm}
+\section{Independence}
+\begin{equation}
+\scalebox{2} {$ P(A \cap B)= P(A)*P(B) $}
+\end{equation}
+
+\vspace{5mm}
+\section{Bayes' Theorem}
+The posterior probability can be calculated using this simplified formula:
+\begin{equation}
+\scalebox{2} {$ \frac { xy }{ xy+z(1-x) } $}
+\end{equation}
+
+% ============================================================
+\end{document}
